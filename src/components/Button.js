@@ -6,7 +6,7 @@ function Button(props) {
   const { name } = props;
   return (
     <div className="button">
-      <div>{name}</div>
+      {name}
     </div>
   );
 }
