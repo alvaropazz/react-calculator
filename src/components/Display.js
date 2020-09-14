@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './Display.css';
 
 function Display(props) {
-  const {result} = props
+  const { result } = props;
   return (
     <div className="display">
       <div>{result}</div>
@@ -13,10 +13,10 @@ function Display(props) {
 
 Display.defaultProps = {
   result: '0',
-}
+};
 
 Display.propTypes = {
-  result: PropTypes.string
-}
+  result: PropTypes.string,
+};
 
 export default Display;

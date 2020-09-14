@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './Button.css';
 
 function Button(props) {
-  const { name } = props
+  const { name } = props;
   return (
     <div className="button">
       <div>{name}</div>
@@ -12,7 +12,7 @@ function Button(props) {
 }
 
 Button.propTypes = {
-  result: PropTypes.string
-}
+  name: PropTypes.string.isRequired,
+};
 
 export default Button;

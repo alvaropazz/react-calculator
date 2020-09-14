@@ -1,8 +1,8 @@
 import React from 'react';
-import Button from './Button'
+import Button from './Button';
 import './ButtonPanel.css';
 
-function ButtonPanel(props) {
+function ButtonPanel() {
   return (
     <div className="buttonPanel">
       <div className="button_group">
