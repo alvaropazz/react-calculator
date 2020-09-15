@@ -1,9 +1,7 @@
 .button {
-  flex-basis: 25%;
   border: 1px solid black;
   font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
