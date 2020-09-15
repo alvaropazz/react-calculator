@@ -3,9 +3,7 @@ import PropTypes from 'prop-types';
 import './Button.css';
 
 const Button = props => {
-  const { name } = props;
-  const { color } = props;
-  const { wide } = props;
+  const { name, color, wide } = props;
   const wideStyle = {
     backgroundColor: color,
     flexBasis: '50%',
@@ -15,23 +13,13 @@ const Button = props => {
     flexBasis: '25%',
   };
   return (
-    wide
-      ? (
-        <div
-          className="button"
-          style={wideStyle}
-        >
-          {name}
-        </div>
-      )
-      : (
-        <div
-          className="button"
-          style={normalStyle}
-        >
-          {name}
-        </div>
-      )
+    <button
+      type="button"
+      className="button"
+      style={wide ? wideStyle : normalStyle}
+    >
+      {name}
+    </button>
   );
 };
 
