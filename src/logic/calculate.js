@@ -6,7 +6,7 @@ const calculate = (calculatorDataObject, buttonName) => {
   if (buttonName === '+/-') {
     calculatorDataObject.total = (calculatorDataObject.total * -1).toString();
   } else {
-    calculatorDataObject.total = (operate(calculatorDataObject.total, calculatorDataObject.next, buttonName)).toString();
+    calculatorDataObject.total = operate(calculatorDataObject.total, calculatorDataObject.next, buttonName);
   }
   return calculatorDataObject;
 };
