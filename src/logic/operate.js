@@ -7,20 +7,20 @@ const operate = (numberOne, numberTwo, operation) => {
 
   switch (operation) {
     case '%':
-      result = firstNumber.times(0.01);
+      result = firstNumber.mod(secondNumber).toString();
       break;
     case '+':
-      result = firstNumber.add(secondNumber);
+      result = firstNumber.add(secondNumber).toString();
       break;
     case '-':
-      result = firstNumber.minus(secondNumber);
+      result = firstNumber.minus(secondNumber).toString();
       break;
     case '*':
-      result = firstNumber.times(secondNumber);
+      result = firstNumber.times(secondNumber).toString();
       break;
     case '/':
       try {
-        result = firstNumber.div(secondNumber);
+        result = firstNumber.div(secondNumber).toString();
       } catch (e) {
         result = 'undefined';
       }
