@@ -1,68 +1,87 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Calculator
 
-## Available Scripts
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-In the project directory, you can run:
+## About the project
 
-### `yarn start`
+- React based calculator
+- CSS styled
+- Folder priotization
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![image](https://user-images.githubusercontent.com/58086801/93407470-e79eab00-f857-11ea-8040-caf724624a50.png)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+## Features
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- This is a React-based calculator
 
-### `yarn build`
+## Live Link
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Live Demo]()
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project utilizes:
 
-### `yarn eject`
+- React
+- CSS
+- HTML
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Getting Started
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To get started with the app, please follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Navigate to the folder where you would like to save the game.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Open your terminal by right-clicking, and opening the command line of your choice.
 
-## Learn More
+- Clone the repo by typing:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+$ git clone git@github.com:alvaropazz/react-calculator.git
+```
+or
+```
+$ git clone https://github.com/alvaropazz/react-calculator.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Access the newly created folder by typing:
 
-### Code Splitting
+```
+$ cd react-calculator
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- Install the necessary dependencies:
 
-### Analyzing the Bundle Size
+```
+npm install
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- Bundle the resources and run the code locally:
 
-### Making a Progressive Web App
+```
+$ npm run start
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- Open [http://localhost:3000/](http://localhost:3080/) on your browser.
 
-### Advanced Configuration
+## Contributors
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+- Alvaro Paz
+  - Linkedin: [@alvaropaz](https://linkedin.com/in/alvaropaz/)
+  - GitHub: [@alvaropazz](https://github.com/alvaropazz)
+  - Twitter: [@alvaroipazr](https://twitter.com/alvaroipazr)
+  
+<!-- MARKDOWN LINKS & IMAGES -->
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[contributors-shield]: https://img.shields.io/github/contributors/alvaropazz/jreact-calculator.svg?style=flat-square
+[contributors-url]: https://github.com/alvaropazz/jreact-calculator/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/alvaropazz/jreact-calculator.svg?style=flat-square
+[forks-url]: https://github.com/alvaropazz/jreact-calculator/network/members
+[stars-shield]: https://img.shields.io/github/stars/alvaropazz/jreact-calculator.svg?style=flat-square
+[stars-url]: https://github.com/alvaropazz/jreact-calculator/stargazers
+[issues-shield]: https://img.shields.io/github/issues/alvaropazz/jreact-calculator.svg?style=flat-square
+[issues-url]: https://github.com/alvaropazz/jreact-calculator/issues
