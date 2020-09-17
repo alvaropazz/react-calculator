@@ -11,7 +11,7 @@
 - CSS styled
 - Folder priotization
 
-![image]()
+![image](https://user-images.githubusercontent.com/58086801/93407470-e79eab00-f857-11ea-8040-caf724624a50.png)
 
 
 ## Features
@@ -29,6 +29,44 @@ This project utilizes:
 - React
 - CSS
 - HTML
+
+## Getting Started
+
+To get started with the app, please follow these steps:
+
+- Navigate to the folder where you would like to save the game.
+
+- Open your terminal by right-clicking, and opening the command line of your choice.
+
+- Clone the repo by typing:
+
+```
+$ git clone git@github.com:alvaropazz/react-calculator.git
+```
+or
+```
+$ git clone https://github.com/alvaropazz/react-calculator.git
+```
+
+- Access the newly created folder by typing:
+
+```
+$ cd react-calculator
+```
+
+- Install the necessary dependencies:
+
+```
+npm install
+```
+
+- Bundle the resources and run the code locally:
+
+```
+$ npm run start
+```
+
+- Open [http://localhost:3000/](http://localhost:3080/) on your browser.
 
 ## Contributors
 
