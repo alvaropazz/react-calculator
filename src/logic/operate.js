@@ -10,7 +10,7 @@ const operate = (numberOne, numberTwo, operation) => {
 
   switch (operation) {
     case '%':
-      result = firstNumber.mod(secondNumber);
+      result = firstNumber * (0.01);
       break;
     case '+':
       result = firstNumber.plus(secondNumber);
